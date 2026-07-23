@@ -1,11 +1,5 @@
 🍔 QuickBite Express: Crisis Impact Analysis
 
-"Power BI" (https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black)
-"SQL" (https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
-"Power Query" (https://img.shields.io/badge/Power_Query-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white)
-
----
-
 📊 Overview
 
 This project presents a Business Intelligence dashboard analyzing the impact of a business crisis on QuickBite Express.
@@ -22,22 +16,15 @@ Timeframe: Jan 2025 → Sept 2025
 
 ---
 
-🏗️ Data Architecture
-
-graph TD
-A[(Raw Data / SQL)] -->|Extraction| B(Power Query)
-B -->|Cleaning & Transformation| C{Data Model}
-C -->|DAX Measures| D[Power BI Dashboard]
-D --> E((Insights))
-
----
-
 🚀 Key Insights
 
 flowchart LR
 Rev[Revenue] -->|70.92% Drop| RevDrop[37.6M ➡️ 10.9M]
+
 Ord[Orders] -->|78K Lost| OrdDrop[113K ➡️ 35K]
+
 Can[Cancellations] -->|Doubled| CanSpike[~6% ➡️ 12.51%]
+
 Sat[Satisfaction] -->|Crashed| SatDrop[4.7 ⭐ ➡️ 2.3 ⭐]
 
 📉 Business Impact
